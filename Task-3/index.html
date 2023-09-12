@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task-3</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+
+    <div class="navbar">
+        <header>
+            
+            <nav>
+                <div class="logo">TASK-3</div>
+                <div class="menu">
+                    
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        
+                </div>   
+            </nav>
+            
+             <div class="cont1">
+                <h1>Welcome to Our Website</h1>
+                <p>Look around to know the task assign<br>(Any three you have to do)</p>
+            
+            </div>
+        </header>
+    </div>
+
+
+   
+        <div class="container"> 
+        <div class="card">
+          <button type="button" onclick=""><b><i>Task-1</i></b></button>
+          <p>Create a Temperature Converter using dropdown feature</p>
+        
+        </div>
+
+        <div class="card">
+            <button type="button" onclick=""><b><i>Task-2</i></b> </button>
+            <p>Create a Background Color Generator and allow user to copy the color code </p>
+         </div>
+
+         <div class="card">
+            <button type="button" onclick=""><b><i>Task-3</i></b></button>
+            <p>Create a Responsive Blog Website</p>
+         </div>
+
+         <div class="card">
+            <button type="button" onclick=""><b><i>Task-4</i></b></button>
+            <p>Create a Landing Page using HTML & CSS</p>
+         </div>
+    </div>
+    
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js">  </script>
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+
+    <div class="footerContainer">
+        <div class="socialicon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    <div class="footernav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>   
+    <div class="footerbottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">Sania Ahmad</span></p>
+    </div>        
+    </div>
+
+    
+
+</body>
+</html>
